@@ -34,6 +34,16 @@ PgDn::LWin
 PgDn & Tab::
   send {LWin Down}{Tab}
   return
+CapsLock & 1::switchDesktopByNumber(1)
+CapsLock & 2::switchDesktopByNumber(2)
+CapsLock & 3::switchDesktopByNumber(3)
+CapsLock & 4::switchDesktopByNumber(4)
+CapsLock & 5::switchDesktopByNumber(5)
+CapsLock & 6::switchDesktopByNumber(6)
+CapsLock & 7::switchDesktopByNumber(7)
+CapsLock & 8::switchDesktopByNumber(8)
+CapsLock & 9::switchDesktopByNumber(9)
+CapsLock::return
 
 ;CapsLock & Numpad1::switchDesktopByNumber(1)
 ;CapsLock & Numpad2::switchDesktopByNumber(2)
@@ -58,7 +68,7 @@ PgDn & Tab::
 ;CapsLock & w::MoveCurrentWindowToDesktop(2)
 ;CapsLock & e::MoveCurrentWindowToDesktop(3)
 ;CapsLock & r::MoveCurrentWindowToDesktop(4)
-;CapsLock & t::MoveCurrentWindowToDesktop(5)
+;CapsLock & t::MoveCurrentWindowToDeskLWinLWintop(5)
 ;CapsLock & y::MoveCurrentWindowToDesktop(6)
 ;CapsLock & u::MoveCurrentWindowToDesktop(7)
 ;CapsLock & i::MoveCurrentWindowToDesktop(8)
